@@ -1,130 +1,326 @@
 中国内地,#genre#
 CCTV-1
+CCTV-2
+CCTV-3
+CCTV-4
 CCTV-5
+CCTV-5+
 CCTV-6
+CCTV-7
+CCTV-8
+CCTV-9
+CCTV-10
+CCTV-11
+CCTV-12
 CCTV-13
+CCTV-14
+CCTV-15
+CCTV-16
+CCTV-17
+CGTN
 湖南卫视
 浙江卫视
 东方卫视
+江苏卫视
+北京卫视
+广东卫视
+深圳卫视
+安徽卫视
+山东卫视
+天津卫视
+四川卫视
 
 中国香港,#genre#
 TVB Jade
 TVB News
 TVB Pearl
+TVB J2
+TVB Finance
 Phoenix Chinese
 Phoenix Info
+Phoenix Movies
+Phoenix Hong Kong
 ViuTV
+ViuTVsix
+RTHK TV 31
+RTHK TV 32
+HOY TV
+HOY Infotainment
+HKC News
 
 中国台湾,#genre#
 TVBS News
+TVBS
+TVBS Asia
 EBC News
+EBC Financial
 CTI News
+CTI Entertainment
 FTV
+FTV News
+SET News
+SET Taiwan
+TTV
+CTV Taiwan
+CTS
+台视新闻
+华视新闻
 HBO Taiwan
 Discovery Taiwan
+TLC Taiwan
+Fox Sports Taiwan
 
 马来西亚,#genre#
 Astro AEC
 Astro Wah Lai Toi
+Astro Awani
+Astro Arena
 8TV
 TV3 Malaysia
+TV1 Malaysia
+TV2 Malaysia
+TV9 Malaysia
+NTV7
+Bernama TV
+Suke TV
 
 新加坡,#genre#
 Channel 8
 Channel U
 CNA
 Channel 5
+Suria
+Vasantham
+Sujia Asia
+8World
 
 泰国,#genre#
 CH3 Thailand
 CH7 Thailand
 Thairath TV
 One 31
+MCOT HD
+GMM25
+PPTV HD 36
+Amarin TV
+TNN16
+NBT World
+MONO29
+True4U
 
 越南,#genre#
 VTV1
+VTV2
 VTV3
+VTV4
+VTV5
 VTV6
+VTV7
+VTV8
+VTV9
 HTV7
+HTV9
+VTC1
+VTC3
+VTC14
+SCTV4
+SCTV9
 
 印度,#genre#
 DD National
+DD News
 Aaj Tak
 Zee News
 Sony Entertainment
+Star Plus
+Colors TV
+NDTV India
+Republic TV
+Times Now
+India TV
+Zee Cinema
+Star Gold
+Sony MAX
 
 印度尼西亚,#genre#
 RCTI
 GTV
 Trans TV
+Trans 7
 Metro TV
+SCTV
+Indosiar
+TVRI
+Kompas TV
+tvOne
+NET TV
+MNTV
 
 加拿大,#genre#
 CBC Television
+CBC News Network
 CTV Toronto
+CTV News Channel
 Global TV
+Global News
 Omni 1
+Omni 2
+ICI Radio-Canada
+CP24
+TSN1
+TSN2
+Sportsnet
+BNN Bloomberg
 
 德国,#genre#
 ARD Das Erste
 ZDF
+ZDFneo
 RTL
+RTL Zwei
 ProSieben
+Sat.1
+VOX
+N-TV
+Welt
+Tagesschau24
+3sat
+Arte DE
+Phoenix DE
+Super RTL
+Kika
 
 西班牙,#genre#
 La 1
 La 2
 Antena 3
 Telecinco
+Cuatro
+La Sexta
+24 Horas
+Teledeporte
+Clan
+Canal Sur
+TV3 Catalunya
+Telemadrid
 
 法国,#genre#
 TF1
 France 2
 France 3
+France 4
+France 5
+France Info
 M6
+W9
+Arte FR
+BFM TV
+CNews
+LCI
+TMC
+Gulli
+Euronews FR
 
 英国,#genre#
 BBC One
 BBC Two
+BBC Three
+BBC Four
+BBC News
 ITV 1
+ITV 2
+ITV 3
+ITV 4
 Sky News
+Sky Sports Main Event
+Sky Sports News
+Channel 4
+Channel 5
+Film4
+Dave
 
 意大利,#genre#
 Rai 1
 Rai 2
+Rai 3
+Rai News 24
+Rai Sport
 Canale 5
 Italia 1
+Rete 4
+TGCOM24
+LA7
+TV8 Italy
+Nove
+Rai Movie
+Rai Gulp
 
 日本,#genre#
 NHK General
 NHK Educational
+NHK World Premium
+NHK BS1
+NHK BS Premium
 Fuji TV
 TBS Tokyo
 TV Asahi
+Nippon TV
+TV Tokyo
+Tokyo MX
+BS Fuji
+BS Asahi
+BS-TBS
+BS TV Tokyo
+BS NTV
 
 韩国,#genre#
 KBS1
 KBS2
+KBS World
 MBC
 SBS
 tvN
+JTBC
+Mnet
+YTN
+Yonhap News TV
+OCN
+tvN Asia
+Arirang TV
+EBS
 
 缅甸,#genre#
 MRTV
+MRTV-4
 MITV
 5 Plus
 Channel 7 Myanmar
+MWD Channel
+Mahar TV
+Fortune TV
+YTV Myanmar
+Channel K
 
 中国澳门,#genre#
 TDM Ou Mun
 TDM Canal Macau
+TDM Information
+TDM Sport
 Macau Lotus TV
+Mastv
+澳亚卫视
 
 菲律宾,#genre#
 GMA Network
+GMA News TV
 TV5 Philippines
+One News PH
 A2Z Channel
 Kapamilya Channel
+ANC News
+UNTV
+PTV 4
+IBC 13
 
 美国,#genre#
 HBO US
@@ -132,4 +328,18 @@ CNN
 ABC News
 CBS News
 NBC News
+MSNBC
+Fox News
 FOX
+CW Network
+Discovery Channel US
+National Geographic US
+Animal Planet US
+ESPN
+ESPN2
+FS1
+Bloomberg TV US
+CNBC
+TNT US
+TBS US
+USA Network
