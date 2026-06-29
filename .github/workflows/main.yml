@@ -1,43 +1,45 @@
-name: 'Update schedule'
+name: 'Update IPTV Streams'
 
 on:
-  workflow_dispatch:
+  workflow_dispatch: # 🌟 保留手动点火按钮
 
 jobs:
-  push:
+  update:
     runs-on: ubuntu-latest
     steps:
-      # 🚀 🟢 【降维打击】：去掉任何 ref 传参！让 checkout 默认盲拉当前触发它的最干净主分支，彻底根除 main* 幽灵污染
+      # 1. 物理拉取当前 main 分支上的配置（user_demo / user_config）
       - uses: actions/checkout@v4
 
-      # 🚀 🟢 全量适配 Node 24 运行时环境
-      - name: Run with setup-python 3.13
+      # 2. 部署 2026 最新 Node 24 完美兼容版 Python 环境
+      - name: Set up Python 3.13
         uses: actions/setup-python@v5
         with:
           python-version: '3.13'
-          update-environment: true
           cache: 'pipenv'
 
+      # 3. 强行安装核心测速工具 FFmpeg（海外流测速硬通货）
       - name: Install FFmpeg
         run: sudo apt-get update && sudo apt-get install -y ffmpeg
 
+      # 4. 安装包管理器 pipenv 并拉取项目依赖
       - name: Install pipenv
         run: pip3 install --user pipenv
 
-      - name: Install dependecies
+      - name: Install dependencies
         run: pipenv --python 3.13 && pipenv install --deploy
 
-      - name: Update
-        # 🎯 优先尝试让原项目跑车吃你的 user_config.ini
-        # 如果项目老旧代码不支持传参报错，只需将其改回 `pipenv run dev` 即可。
+      # 5. 狂暴开闸！强制执行原项目的 Python 核心，吞入你的配置
+      - name: Run Update Script
+        # 💡 提示：如果执行报错提示参数不匹配，直接改成 `pipenv run dev` 即可
         run: pipenv run dev config/user_config.ini
 
-      - name: Commit and push if changed
+      # 6. 洗货完毕，全量自动化提交回你的 GitHub 仓库 output 文件夹
+      - name: Commit and push changes
         run: |
           git config --local user.email "github-actions[bot]@users.noreply.github.com"
           git config --local user.name "github-actions[bot]"
           git add .
           if ! git diff --staged --quiet; then
-            git commit -m "Github Action Auto Updated"
+            git commit -m "Github Action Auto Updated Live Sources"
             git push --force
           fi
