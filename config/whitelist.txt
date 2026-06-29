@@ -4,7 +4,17 @@
 # This is the whitelist for interfaces. Interfaces in the whitelist will not be speed tested and will always be kept at the top of the results;
 # Filling in the channel name will directly retain the record to the final result of the channel, such as: CCTV-1, interface address;
 # If the channel name is not filled in, the address will be added to the results of all channels, with multiple records entered on new lines.
-
+# 🚀 🟢 2026 全球核心大台免测速保送白名单（路径全量校准，彻底告别 404）
+Channel 8,https://raw.githubusercontent.com/iptv-org/iptv/master/streams/sg.m3u
+Channel U,https://raw.githubusercontent.com/iptv-org/iptv/master/streams/sg.m3u
+Channel 5,https://raw.githubusercontent.com/iptv-org/iptv/master/streams/sg.m3u
+Thairath TV,https://raw.githubusercontent.com/iptv-org/iptv/master/streams/th.m3u
+Amarin TV,https://raw.githubusercontent.com/iptv-org/iptv/master/streams/th.m3u
+MRTV,https://raw.githubusercontent.com/iptv-org/iptv/master/streams/mm.m3u
+Metro TV,https://raw.githubusercontent.com/iptv-org/iptv/master/streams/id.m3u
+TVB Jade,https://raw.githubusercontent.com/iptv-org/iptv/master/streams/hk.m3u
+TVBS News,https://raw.githubusercontent.com/iptv-org/iptv/master/streams/tw.m3u
+HBO US,https://raw.githubusercontent.com/iptv-org/iptv/master/streams/us.m3u
 
 
 
