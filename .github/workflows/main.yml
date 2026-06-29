@@ -7,12 +7,10 @@ jobs:
   push:
     runs-on: ubuntu-latest
     steps:
-      # 🚀 🟢 【硬核破局】：直接无脑拉取 main 分支，彻底干掉一切变量拼接和 main* 垃圾通配符污染！
+      # 🚀 🟢 【降维打击】：去掉任何 ref 传参！让 checkout 默认盲拉当前触发它的最干净主分支，彻底根除 main* 幽灵污染
       - uses: actions/checkout@v4
-        with:
-          ref: main
 
-      # 🚀 🟢 【2026 环境对齐】：升级到 setup-python@v5，全量适配 GitHub Actions 最新的 Node 24 运行时，彻底闭嘴 Deprecation 警告！
+      # 🚀 🟢 全量适配 Node 24 运行时环境
       - name: Run with setup-python 3.13
         uses: actions/setup-python@v5
         with:
@@ -30,8 +28,8 @@ jobs:
         run: pipenv --python 3.13 && pipenv install --deploy
 
       - name: Update
-        # 🎯 强制让洗货跑车吞入你的 user_config.ini。
-        # 如果项目老旧代码不支持传参报错，只需将其改回 `pipenv run dev` 即可。优先推荐强制吃配置写法：
+        # 🎯 优先尝试让原项目跑车吃你的 user_config.ini
+        # 如果项目老旧代码不支持传参报错，只需将其改回 `pipenv run dev` 即可。
         run: pipenv run dev config/user_config.ini
 
       - name: Commit and push if changed
