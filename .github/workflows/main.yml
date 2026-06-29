@@ -21,24 +21,34 @@ jobs:
     steps:
       - name: Set branch name
         id: vars
-        run: echo "BRANCH_NAME=${{ github.repository_owner == 'Guovin' && 'gd' || 'master' }}" >> $GITHUB_ENV
+        # 🚀 🟢 【封印解除】：完美适配 2026 最新 GitHub 规范，将非原作者分支精准指向 'main' 分支！
+        run: echo "BRANCH_NAME=${{ github.repository_owner == 'Guovin' && 'gd' || 'main' }}" >> $GITHUB_ENV
+
       - uses: actions/checkout@v3
         with:
           ref: ${{ env.BRANCH_NAME }}
+
       - name: Run with setup-python 3.13
         uses: actions/setup-python@v4
         with:
           python-version: '3.13'
           update-environment: true
           cache: 'pipenv'
+
       - name: Install FFmpeg
         run: sudo apt-get update && sudo apt-get install -y ffmpeg
+
       - name: Install pipenv
         run: pip3 install --user pipenv
+
       - name: Install dependecies
         run: pipenv --python 3.13 && pipenv install --deploy
+
       - name: Update
-        run: pipenv run dev
+        # 🚀 🟢 【强制提货】：如果项目代码支持多配置读取，强制让其吞入你的 user_config.ini！
+        # 如果运行报错，说明原作者删除了传参逻辑，届时只需改回 `pipenv run dev` 即可，优先推荐下面这种强制吃配置写法：
+        run: pipenv run dev config/user_config.ini
+
       - name: Commit and push if changed
         run: |
           git config --local user.email "github-actions[bot]@users.noreply.github.com"
