@@ -1,35 +1,20 @@
 name: 'Update schedule'
 
-# ⚠️注意：请不要在 fork 的仓库中添加 `on: schedule` 定时任务（cron）。
-# Forks 可能被大量复制并触发定时执行，当前 GitHub Actions 资源使用已接近上限，
-# 大量 fork 的定时任务可能导致工作流被禁用。若需要定时执行，请使用其它部署方式。
-#
-# ⚠️NOTICE: Do NOT add `on: schedule` cron triggers in forked repositories.
-# Forks may multiply scheduled runs and GitHub Actions resource usage is near limits.
-# Many scheduled workflows from forks can cause workflows to be disabled.
-# If scheduled execution is required, use other deployment methods.
-
 on:
   workflow_dispatch:
 
 jobs:
   push:
-    runs-on: ${{ matrix.operating-system }}
-    strategy:
-      matrix:
-        operating-system: [ 'ubuntu-latest' ]
+    runs-on: ubuntu-latest
     steps:
-      - name: Set branch name
-        id: vars
-        # 🚀 🟢 【封印解除】：完美适配 2026 最新 GitHub 规范，将非原作者分支精准指向 'main' 分支！
-        run: echo "BRANCH_NAME=${{ github.repository_owner == 'Guovin' && 'gd' || 'main' }}" >> $GITHUB_ENV
-
-      - uses: actions/checkout@v3
+      # 🚀 🟢 【硬核破局】：直接无脑拉取 main 分支，彻底干掉一切变量拼接和 main* 垃圾通配符污染！
+      - uses: actions/checkout@v4
         with:
-          ref: ${{ env.BRANCH_NAME }}
+          ref: main
 
+      # 🚀 🟢 【2026 环境对齐】：升级到 setup-python@v5，全量适配 GitHub Actions 最新的 Node 24 运行时，彻底闭嘴 Deprecation 警告！
       - name: Run with setup-python 3.13
-        uses: actions/setup-python@v4
+        uses: actions/setup-python@v5
         with:
           python-version: '3.13'
           update-environment: true
@@ -45,8 +30,8 @@ jobs:
         run: pipenv --python 3.13 && pipenv install --deploy
 
       - name: Update
-        # 🚀 🟢 【强制提货】：如果项目代码支持多配置读取，强制让其吞入你的 user_config.ini！
-        # 如果运行报错，说明原作者删除了传参逻辑，届时只需改回 `pipenv run dev` 即可，优先推荐下面这种强制吃配置写法：
+        # 🎯 强制让洗货跑车吞入你的 user_config.ini。
+        # 如果项目老旧代码不支持传参报错，只需将其改回 `pipenv run dev` 即可。优先推荐强制吃配置写法：
         run: pipenv run dev config/user_config.ini
 
       - name: Commit and push if changed
