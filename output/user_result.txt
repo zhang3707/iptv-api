@@ -26,6 +26,7 @@ CCTV-17,http://74.91.26.218:82/live/cctv17hd.m3u8
 
 马来西亚,#genre#
 8TV,http://cdn6.163189.xyz/163189/8tv
+NTV7,https://tonton-live-switch-ssar.akamaized.net/stream-ntv7/master.m3u8?bpkio_serviceid=6c0958d82a830a02ca0936d9cfab8311
 
 新加坡,#genre#
 
@@ -39,6 +40,7 @@ MCOT HD,https://mcothd-streaming-edge-cdn.mcot.net/tencentmcot/smil:tencentmcot.
 印度尼西亚,#genre#
 
 加拿大,#genre#
+BNN Bloomberg,https://pe-ak-lp01a-9c9media.akamaized.net/live/News1BNNDigi/p/dash/00000001/1bba52dc66e4c68e/manifest.mpd
 
 德国,#genre#
 

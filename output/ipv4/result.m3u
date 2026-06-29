@@ -31,8 +31,6 @@ http://74.91.26.218:82/live/cctv15hd.m3u8
 http://74.91.26.218:82/live/cctv16hd.m3u8
 #EXTINF:-1 tvg-id="CCTV-17" tvg-name="CCTV-17" tvg-logo="https://www.xn--rgv465a.top/tvlogo/CCTV-17.png" group-title="中国内地",CCTV-17
 http://74.91.26.218:82/live/cctv17hd.m3u8
-#EXTINF:-1 tvg-id="8TV" tvg-name="8TV" tvg-logo="https://www.xn--rgv465a.top/tvlogo/8TV.png" group-title="马来西亚",8TV
-http://cdn6.163189.xyz/163189/8tv
 #EXTINF:-1 tvg-id="MCOT HD" tvg-name="MCOT HD" tvg-logo="https://www.xn--rgv465a.top/tvlogo/MCOT HD.png" group-title="泰国",MCOT HD
 https://mcothd-streaming-edge-cdn.mcot.net/tencentmcot/smil:tencentmcot.smil/playlist.m3u8
 #EXTINF:-1 tvg-id="Ando TV (1080p)" tvg-name="Ando TV (1080p)" tvg-logo="https://www.xn--rgv465a.top/tvlogo/Ando TV (1080p).png" group-title="♻️未匹配频道",Ando TV (1080p)
