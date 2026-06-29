@@ -2,8 +2,6 @@
 #EXTINF:-1 tvg-id="CCTV-1" tvg-name="CCTV-1" tvg-logo="https://www.xn--rgv465a.top/tvlogo/CCTV-1.png" group-title="中国内地",CCTV-1
 http://198.204.240.250:82/live/cctv1.m3u8
 #EXTINF:-1 tvg-id="CCTV-1" tvg-name="CCTV-1" tvg-logo="https://www.xn--rgv465a.top/tvlogo/CCTV-1.png" group-title="中国内地",CCTV-1
-http://69.30.245.50/live/cctv1.m3u8
-#EXTINF:-1 tvg-id="CCTV-1" tvg-name="CCTV-1" tvg-logo="https://www.xn--rgv465a.top/tvlogo/CCTV-1.png" group-title="中国内地",CCTV-1
 http://74.91.26.218:82/live/cctv1hd.m3u8
 #EXTINF:-1 tvg-id="CCTV-2" tvg-name="CCTV-2" tvg-logo="https://www.xn--rgv465a.top/tvlogo/CCTV-2.png" group-title="中国内地",CCTV-2
 http://74.91.26.218:82/live/cctv2hd.m3u8
@@ -13,8 +11,6 @@ http://74.91.26.218:82/live/cctv3hd.m3u8
 http://74.91.26.218:82/live/cctv4hd.m3u8
 #EXTINF:-1 tvg-id="CCTV-6" tvg-name="CCTV-6" tvg-logo="https://www.xn--rgv465a.top/tvlogo/CCTV-6.png" group-title="中国内地",CCTV-6
 http://198.204.240.250:82/live/cctv6.m3u8
-#EXTINF:-1 tvg-id="CCTV-6" tvg-name="CCTV-6" tvg-logo="https://www.xn--rgv465a.top/tvlogo/CCTV-6.png" group-title="中国内地",CCTV-6
-http://69.30.245.50/live/cctv6.m3u8
 #EXTINF:-1 tvg-id="CCTV-7" tvg-name="CCTV-7" tvg-logo="https://www.xn--rgv465a.top/tvlogo/CCTV-7.png" group-title="中国内地",CCTV-7
 http://74.91.26.218:82/live/cctv7hd.m3u8
 #EXTINF:-1 tvg-id="CCTV-8" tvg-name="CCTV-8" tvg-logo="https://www.xn--rgv465a.top/tvlogo/CCTV-8.png" group-title="中国内地",CCTV-8
@@ -43,14 +39,36 @@ https://xykt-fix.github.io/play/a02e/index.m3u8
 http://74.91.26.218:82/live/cctv16hd.m3u8
 #EXTINF:-1 tvg-id="CCTV-17" tvg-name="CCTV-17" tvg-logo="https://www.xn--rgv465a.top/tvlogo/CCTV-17.png" group-title="中国内地",CCTV-17
 http://74.91.26.218:82/live/cctv17hd.m3u8
+#EXTINF:-1 tvg-id="TVB Jade" tvg-name="TVB Jade" tvg-logo="https://www.xn--rgv465a.top/tvlogo/TVB Jade.png" group-title="中国香港",TVB Jade
+https://raw.githubusercontent.com/iptv-org/iptv/master/streams/hk.m3u
+#EXTINF:-1 tvg-id="TVBS News" tvg-name="TVBS News" tvg-logo="https://www.xn--rgv465a.top/tvlogo/TVBS News.png" group-title="中国台湾",TVBS News
+https://raw.githubusercontent.com/iptv-org/iptv/master/streams/tw.m3u
 #EXTINF:-1 tvg-id="8TV" tvg-name="8TV" tvg-logo="https://www.xn--rgv465a.top/tvlogo/8TV.png" group-title="马来西亚",8TV
 http://cdn6.163189.xyz/163189/8tv
 #EXTINF:-1 tvg-id="NTV7" tvg-name="NTV7" tvg-logo="https://www.xn--rgv465a.top/tvlogo/NTV7.png" group-title="马来西亚",NTV7
 https://tonton-live-switch-ssar.akamaized.net/stream-ntv7/master.m3u8?bpkio_serviceid=6c0958d82a830a02ca0936d9cfab8311
+#EXTINF:-1 tvg-id="Channel 8" tvg-name="Channel 8" tvg-logo="https://www.xn--rgv465a.top/tvlogo/Channel 8.png" group-title="新加坡",Channel 8
+https://raw.githubusercontent.com/iptv-org/iptv/master/streams/sg.m3u
+#EXTINF:-1 tvg-id="Channel U" tvg-name="Channel U" tvg-logo="https://www.xn--rgv465a.top/tvlogo/Channel U.png" group-title="新加坡",Channel U
+https://raw.githubusercontent.com/iptv-org/iptv/master/streams/sg.m3u
+#EXTINF:-1 tvg-id="Channel 5" tvg-name="Channel 5" tvg-logo="https://www.xn--rgv465a.top/tvlogo/Channel 5.png" group-title="新加坡",Channel 5
+https://raw.githubusercontent.com/iptv-org/iptv/master/streams/sg.m3u
+#EXTINF:-1 tvg-id="Thairath TV" tvg-name="Thairath TV" tvg-logo="https://www.xn--rgv465a.top/tvlogo/Thairath TV.png" group-title="泰国",Thairath TV
+https://raw.githubusercontent.com/iptv-org/iptv/master/streams/th.m3u
 #EXTINF:-1 tvg-id="MCOT HD" tvg-name="MCOT HD" tvg-logo="https://www.xn--rgv465a.top/tvlogo/MCOT HD.png" group-title="泰国",MCOT HD
 https://mcothd-streaming-edge-cdn.mcot.net/tencentmcot/smil:tencentmcot.smil/playlist.m3u8
+#EXTINF:-1 tvg-id="Amarin TV" tvg-name="Amarin TV" tvg-logo="https://www.xn--rgv465a.top/tvlogo/Amarin TV.png" group-title="泰国",Amarin TV
+https://raw.githubusercontent.com/iptv-org/iptv/master/streams/th.m3u
+#EXTINF:-1 tvg-id="Metro TV" tvg-name="Metro TV" tvg-logo="https://www.xn--rgv465a.top/tvlogo/Metro TV.png" group-title="印度尼西亚",Metro TV
+https://raw.githubusercontent.com/iptv-org/iptv/master/streams/id.m3u
 #EXTINF:-1 tvg-id="BNN Bloomberg" tvg-name="BNN Bloomberg" tvg-logo="https://www.xn--rgv465a.top/tvlogo/BNN Bloomberg.png" group-title="加拿大",BNN Bloomberg
 https://pe-ak-lp01a-9c9media.akamaized.net/live/News1BNNDigi/p/dash/00000001/1bba52dc66e4c68e/manifest.mpd
+#EXTINF:-1 tvg-id="Channel 5" tvg-name="Channel 5" tvg-logo="https://www.xn--rgv465a.top/tvlogo/Channel 5.png" group-title="英国",Channel 5
+https://raw.githubusercontent.com/iptv-org/iptv/master/streams/sg.m3u
+#EXTINF:-1 tvg-id="MRTV" tvg-name="MRTV" tvg-logo="https://www.xn--rgv465a.top/tvlogo/MRTV.png" group-title="缅甸",MRTV
+https://raw.githubusercontent.com/iptv-org/iptv/master/streams/mm.m3u
+#EXTINF:-1 tvg-id="HBO US" tvg-name="HBO US" tvg-logo="https://www.xn--rgv465a.top/tvlogo/HBO US.png" group-title="美国",HBO US
+https://raw.githubusercontent.com/iptv-org/iptv/master/streams/us.m3u
 #EXTINF:-1 tvg-id="Ando TV (1080p)" tvg-name="Ando TV (1080p)" tvg-logo="https://www.xn--rgv465a.top/tvlogo/Ando TV (1080p).png" group-title="♻️未匹配频道",Ando TV (1080p)
 http://play.kankanlive.com/live/1711956137852982.m3u8
 #EXTINF:-1 tvg-id="Anshun Comprehensive News Channel" tvg-name="Anshun Comprehensive News Channel" tvg-logo="https://www.xn--rgv465a.top/tvlogo/Anshun Comprehensive News Channel.png" group-title="♻️未匹配频道",Anshun Comprehensive News Channel

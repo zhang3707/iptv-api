@@ -1,12 +1,10 @@
 中国内地,#genre#
 CCTV-1,http://198.204.240.250:82/live/cctv1.m3u8
-CCTV-1,http://69.30.245.50/live/cctv1.m3u8
 CCTV-1,http://74.91.26.218:82/live/cctv1hd.m3u8
 CCTV-2,http://74.91.26.218:82/live/cctv2hd.m3u8
 CCTV-3,http://74.91.26.218:82/live/cctv3hd.m3u8
 CCTV-4,http://74.91.26.218:82/live/cctv4hd.m3u8
 CCTV-6,http://198.204.240.250:82/live/cctv6.m3u8
-CCTV-6,http://69.30.245.50/live/cctv6.m3u8
 CCTV-7,http://74.91.26.218:82/live/cctv7hd.m3u8
 CCTV-8,http://74.91.26.218:82/live/cctv8hd.m3u8
 CCTV-10,http://74.91.26.218:82/live/cctv10hd.m3u8
@@ -19,21 +17,29 @@ CCTV-16,http://74.91.26.218:82/live/cctv16hd.m3u8
 CCTV-17,http://74.91.26.218:82/live/cctv17hd.m3u8
 
 中国香港,#genre#
+TVB Jade,https://raw.githubusercontent.com/iptv-org/iptv/master/streams/hk.m3u
 
 中国台湾,#genre#
+TVBS News,https://raw.githubusercontent.com/iptv-org/iptv/master/streams/tw.m3u
 
 马来西亚,#genre#
 
 新加坡,#genre#
+Channel 8,https://raw.githubusercontent.com/iptv-org/iptv/master/streams/sg.m3u
+Channel U,https://raw.githubusercontent.com/iptv-org/iptv/master/streams/sg.m3u
+Channel 5,https://raw.githubusercontent.com/iptv-org/iptv/master/streams/sg.m3u
 
 泰国,#genre#
+Thairath TV,https://raw.githubusercontent.com/iptv-org/iptv/master/streams/th.m3u
 MCOT HD,https://mcothd-streaming-edge-cdn.mcot.net/tencentmcot/smil:tencentmcot.smil/playlist.m3u8
+Amarin TV,https://raw.githubusercontent.com/iptv-org/iptv/master/streams/th.m3u
 
 越南,#genre#
 
 印度,#genre#
 
 印度尼西亚,#genre#
+Metro TV,https://raw.githubusercontent.com/iptv-org/iptv/master/streams/id.m3u
 
 加拿大,#genre#
 
@@ -44,6 +50,7 @@ MCOT HD,https://mcothd-streaming-edge-cdn.mcot.net/tencentmcot/smil:tencentmcot.
 法国,#genre#
 
 英国,#genre#
+Channel 5,https://raw.githubusercontent.com/iptv-org/iptv/master/streams/sg.m3u
 
 意大利,#genre#
 
@@ -52,12 +59,14 @@ MCOT HD,https://mcothd-streaming-edge-cdn.mcot.net/tencentmcot/smil:tencentmcot.
 韩国,#genre#
 
 缅甸,#genre#
+MRTV,https://raw.githubusercontent.com/iptv-org/iptv/master/streams/mm.m3u
 
 中国澳门,#genre#
 
 菲律宾,#genre#
 
 美国,#genre#
+HBO US,https://raw.githubusercontent.com/iptv-org/iptv/master/streams/us.m3u
 
 ♻️未匹配频道,#genre#
 Ando TV (1080p),http://play.kankanlive.com/live/1711956137852982.m3u8
