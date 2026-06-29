@@ -1,0 +1,135 @@
+中国内地,#genre#
+CCTV-1
+CCTV-5
+CCTV-6
+CCTV-13
+湖南卫视
+浙江卫视
+东方卫视
+
+中国香港,#genre#
+TVB Jade
+TVB News
+TVB Pearl
+Phoenix Chinese
+Phoenix Info
+ViuTV
+
+中国台湾,#genre#
+TVBS News
+EBC News
+CTI News
+FTV
+HBO Taiwan
+Discovery Taiwan
+
+马来西亚,#genre#
+Astro AEC
+Astro Wah Lai Toi
+8TV
+TV3 Malaysia
+
+新加坡,#genre#
+Channel 8
+Channel U
+CNA
+Channel 5
+
+泰国,#genre#
+CH3 Thailand
+CH7 Thailand
+Thairath TV
+One 31
+
+越南,#genre#
+VTV1
+VTV3
+VTV6
+HTV7
+
+印度,#genre#
+DD National
+Aaj Tak
+Zee News
+Sony Entertainment
+
+印度尼西亚,#genre#
+RCTI
+GTV
+Trans TV
+Metro TV
+
+加拿大,#genre#
+CBC Television
+CTV Toronto
+Global TV
+Omni 1
+
+德国,#genre#
+ARD Das Erste
+ZDF
+RTL
+ProSieben
+
+西班牙,#genre#
+La 1
+La 2
+Antena 3
+Telecinco
+
+法国,#genre#
+TF1
+France 2
+France 3
+M6
+
+英国,#genre#
+BBC One
+BBC Two
+ITV 1
+Sky News
+
+意大利,#genre#
+Rai 1
+Rai 2
+Canale 5
+Italia 1
+
+日本,#genre#
+NHK General
+NHK Educational
+Fuji TV
+TBS Tokyo
+TV Asahi
+
+韩国,#genre#
+KBS1
+KBS2
+MBC
+SBS
+tvN
+
+缅甸,#genre#
+MRTV
+MITV
+5 Plus
+Channel 7 Myanmar
+
+中国澳门,#genre#
+TDM Ou Mun
+TDM Canal Macau
+Macau Lotus TV
+
+菲律宾,#genre#
+GMA Network
+TV5 Philippines
+A2Z Channel
+Kapamilya Channel
+
+美国,#genre#
+HBO US
+CNN
+ABC News
+CBS News
+NBC News
+FOX
